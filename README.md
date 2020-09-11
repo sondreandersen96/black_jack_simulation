@@ -104,4 +104,46 @@ All the classes discussed above are stored in the **game_classes_and_functions.p
 
 The game logic is quite simple, and is written in the main.py file. 
 
+First, an instance of the dealer and player is created:
+```python
+dealer = Dealer()
+player = Player()
+```
+
+For each round of Black Jack (for each run of the loop) a deck of cards is initiated. Then a hand is dealt to both the player and the dealer:
+```python
+# Create a new deck of cards
+    deck_of_cards = Deck_of_cards()
+
+# Deal cards to dealer
+dealer.hand = deck_of_cards.deal_cards()
+
+# Deal cards to players
+player.hand = deck_of_cards.deal_cards()
+```
+
+After the first cards are dealt a **while** loop runs as long as the player or the dealer still want to hit, if one of them chooses to hit a new card is dealt to them. 
+
+```python
+# Decide wheter to hit or stand
+while player.hit(dealer.hand[0]) == True or dealer.hit() == True:
+
+    if player.hit(dealer.hand[0]):
+        player.hand += deck_of_cards.one_more_card()
+
+    if dealer.hit():
+        dealer.hand += deck_of_cards.one_more_card()
+```
+
+Finally, a winner is chosen based on a bunch of if-else-statements.
+
+
+## Findings From the Simulations 
+
+
+
+
+
+
+
 
