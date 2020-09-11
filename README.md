@@ -37,7 +37,7 @@ class Dealer:
 
 The player class is almost equal to the *dealer* class except that in addition to the instance variable *hand* the player also has and instance variable *balance*. The **hit()** function is a little more complicated for the player, but not much. The main difference is that the player can see one of the dealer's cards, so knowledge about this one card are incorporated into the player strategy. By changing the strategies in this function, users of this program can experiment with different strategies and compare payoffs over time. 
 
-```
+```python
 class Player:
     def __init__(self):
         self.hand = []
@@ -61,7 +61,7 @@ class Player:
 **Deck of cards** 
 The deck of cards class deals with all services a deck provides in the game, that is it stores all the card values, it shuffles the deck, and it deals cards to the players. The two functions are almost equal: **deal_cards()** deals the first to cards that are assigned to all players. **one_more_card()** is called when a player chose to *hit*, and it deals one more card, and removes it from the deck. 
 
-```
+```python
 class Deck_of_cards:
     def __init__(self):
         self.dec = ['2', '2', '2', '2',
