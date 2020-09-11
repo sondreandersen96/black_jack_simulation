@@ -113,7 +113,7 @@ player = Player()
 For each round of Black Jack (for each run of the loop) a deck of cards is initiated. Then a hand is dealt to both the player and the dealer:
 ```python
 # Create a new deck of cards
-    deck_of_cards = Deck_of_cards()
+deck_of_cards = Deck_of_cards()
 
 # Deal cards to dealer
 dealer.hand = deck_of_cards.deal_cards()
