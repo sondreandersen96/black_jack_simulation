@@ -147,9 +147,11 @@ The simulation is by nature, stochastic, so the exact results that I report here
 
 Playing 1 000 000 games with the player strategy shown above the results are:
 
-| Player wins | Dealer wins | Ties | 
+
+|Player wins |Dealer wins |Ties | 
 |-------------|-------------|------|
 | 121         |  fsj        | fdjk | 
+
 
 fdsf
 
