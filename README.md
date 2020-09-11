@@ -59,6 +59,7 @@ class Player:
 ```
 
 **Deck of cards** 
+
 The deck of cards class deals with all services a deck provides in the game, that is it stores all the card values, it shuffles the deck, and it deals cards to the players. The two functions are almost equal: **deal_cards()** deals the first to cards that are assigned to all players. **one_more_card()** is called when a player chose to *hit*, and it deals one more card, and removes it from the deck. 
 
 ```python
@@ -126,7 +127,7 @@ After the first cards are dealt a **while** loop runs as long as the player or t
 
 ```python
 # Decide wheter to hit or stand
-while player.hit(dealer.hand[0]) == True or dealer.hit() == True:
+while player.hit(dealer.hand[0]) or dealer.hit():
 
     if player.hit(dealer.hand[0]):
         player.hand += deck_of_cards.one_more_card()
@@ -137,10 +138,20 @@ while player.hit(dealer.hand[0]) == True or dealer.hit() == True:
 
 Finally, a winner is chosen based on a bunch of if-else-statements.
 
+Additionally, I have also added some code that can be used to save results. OBS! Only results from simulations with the same length can be saved to the same *historic_bets.csv* file, otherwise the pandas dataframe will return an error. 
+
 
 ## Findings From the Simulations 
 
+The simulation is by nature, stochastic, so the exact results that I report here, might not replicate precisely -- however, due to the large number of simulations, the *law of large numbers* will generally make the results quite similar. 
 
+Playing 1 000 000 games with the player strategy shown above the results are:
+
+| Player wins | Dealer wins | Ties | 
+|-------------|-------------|------|
+| 121         |  fsj        | fdjk | 
+
+fdsf
 
 
 
