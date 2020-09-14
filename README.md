@@ -163,7 +163,7 @@ So, what happens (in this simulation) when giving players 10 000 units of curren
 
 Well, clearly most players do not benefit financially. It is important to stress that all players follow the exact same strategy, which means that our one player (orange) that barely came out of the casino before losing money, was in no way better than his peers, but rather, had more luck. 
 
-So, out of the 21 players, that where simulated, all but one player lost money. 
+So, out of the 21 players, that were simulated, all but one player lost money. 
 
 
 # Challenge 
