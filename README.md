@@ -143,7 +143,7 @@ Additionally, I have also added some code that can be used to save results. OBS!
 
 ## Findings From the Simulations 
 
-The simulation is by nature, stochastic, so the exact results that I report here, might not replicate precisely -- however, due to the large number of simulations, the *law of large numbers* will generally make the results quite similar. 
+The simulation is by nature, stochastic, so the exact results that I report here, might not replicate precisely - however, due to the large number of simulations, the *law of large numbers* will generally make the results quite similar. 
 
 Playing 1 000 000 games with the player strategy shown above the results are:
 
@@ -153,6 +153,24 @@ Playing 1 000 000 games with the player strategy shown above the results are:
 
 
 ![21 Simulation Histogram](21_sim_hist.png)
+
+
+This simulation clearly illustrate the Dealer's edge in the game of Black Jack. Although the edge is not large, it is more than enough to make sure that the casio wins over time, making it a profitable game for the casino. By its very nature Black Jack is a zero sum game, which means that it is not (generally) profitable for players. It is important to emphasize that these results reflect the strategy of the player, which is described above, this strategy can possibly be improved to make the game a little more even. 
+
+So, what happens (in this simulation) when giving players 10 000 units of currency and letting them play 800 games? 
+
+![800 games by 21 players](800_games_by_21_players.png)
+
+Well, clearly most players do not benefit financially. It is important to stress that all players follow the exact same strategy, which means that our one player (orange) that barely came out of the casino before losing money, was in no way better than his peers, but rather, had more luck. 
+
+So, out of the 21 players, that where simulated, all but one player lost money. 
+
+
+# Challenge 
+
+As I have stressed, the results from this simulation is highly dependent on the strategy of the player. I have not put much effort into optimizing this strategy, and whole tables exist which attempts to explain the optimal strategy for a Black Jack player. Feel free to download my code and attempt to improve the distribution of wins from the 1 000 000 simulations that I have described above. 
+
+
 
 
 
