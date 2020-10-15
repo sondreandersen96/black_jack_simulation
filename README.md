@@ -143,7 +143,7 @@ Additionally, I have also added some code that can be used to save results. OBS!
 
 ## Findings From the Simulations 
 
-The simulation is by nature, stochastic, so the exact results that I report here, might not replicate precisely - however, due to the large number of simulations, the *law of large numbers* will generally make the results quite similar. 
+The simulation is, by nature, stochastic, so the exact results that I report here, might not replicate precisely - however, due to the large number of simulations, the *law of large numbers* will generally make the results quite similar. 
 
 Playing 1 000 000 games with the player strategy shown above the results are:
 
