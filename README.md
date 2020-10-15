@@ -155,9 +155,9 @@ Playing 1 000 000 games with the player strategy shown above the results are:
 ![21 Simulation Histogram](21_sim_hist.png)
 
 
-This simulation clearly illustrate the Dealer's edge in the game of Black Jack. Although the edge is not large, it is more than enough to make sure that the casio wins over time, making it a profitable game for the casino. By its very nature Black Jack is a zero sum game, which means that it is not (generally) profitable for players. It is important to emphasize that these results reflect the strategy of the player, which is described above, this strategy can possibly be improved to make the game a little more even. 
+This simulation clearly illustrate the Dealer's edge in the game of Black Jack. Although the edge is not large, it is more than enough to make sure that the casio wins over time, making it a profitable game for the casino. By its very nature Black Jack is a zero sum game, which means that it cannot be profitable for both players and casinos, and on average players lose. It is important to emphasize that these results reflect the strategy of the player, which is described above, this strategy can possibly be improved to make the game a little more even. 
 
-So, what happens (in this simulation) when giving players 10 000 units of currency and letting them play 800 games? 
+So, what happens (in this simulation) when giving players 10 000 units of currency and letting them play 800 games, betting 50 each round? 
 
 ![800 games by 21 players](800_games_by_21_players.png)
 
